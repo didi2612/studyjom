@@ -1,0 +1,21 @@
+[debug] [2023-11-11T15:10:45.067Z] ----------------------------------------------------------------------
+[debug] [2023-11-11T15:10:45.071Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\azmib\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-11T15:10:45.071Z] CLI Version:   12.8.1
+[debug] [2023-11-11T15:10:45.071Z] Platform:      win32
+[debug] [2023-11-11T15:10:45.072Z] Node Version:  v20.9.0
+[debug] [2023-11-11T15:10:45.072Z] Time:          Sat Nov 11 2023 23:10:45 GMT+0800 (Malaysia Time)
+[debug] [2023-11-11T15:10:45.072Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-11T15:10:45.080Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-11T15:10:45.081Z] > authorizing via signed-in user (azmibasharudin19@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  A:\azmipwebsite\learn\learnreact
+
