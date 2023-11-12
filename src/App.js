@@ -6,6 +6,7 @@ import Testimonial from "./pages/testimonials";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import SearchResultsPage from "./pages/SearchResultsPage";
 import Tester from "./pages/testpage";
+import "./global.css";
 
 function App() {
   return (

@@ -1,0 +1,7 @@
+/* global.css */
+
+body {
+  background-color: black;
+  margin: 0;
+  font-family: "Roboto", sans-serif; /* You can change the font-family if needed */
+}
