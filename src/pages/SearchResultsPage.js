@@ -80,9 +80,6 @@ const SearchResultsPage = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white relative">
-      <div className="-z-30">
-        <ShootingStars />
-      </div>
       <div className="bg-gray-800 p-8 rounded-lg shadow-md w-full max-w-3xl relative z-10">
         <Helmet>
           <title>Search Results - Study Jom</title>
