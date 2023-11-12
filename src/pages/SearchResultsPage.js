@@ -10,6 +10,8 @@ import {
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 import db from "./firebase";
 import ShootingStars from "../stars/shooting";
+import { Helmet } from "react-helmet";
+import LOGO from "./images/azp.png";
 
 const SearchResultsPage = () => {
   const location = useLocation();
@@ -82,6 +84,15 @@ const SearchResultsPage = () => {
         <ShootingStars />
       </div>
       <div className="bg-gray-800 p-8 rounded-lg shadow-md w-full max-w-3xl relative z-10">
+        <Helmet>
+          <title>Search Results - Study Jom</title>
+          <meta
+            name="description"
+            content={`Search results for: ${searchTerm}`}
+          />
+          {/* Add other metadata here */}
+          <link rel="icon" type="image/ico" href={LOGO} />
+        </Helmet>
         <form onSubmit={handleSearch} className="mb-4">
           <label className="block text-sm font-medium text-gray-500">
             <input

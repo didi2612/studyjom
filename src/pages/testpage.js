@@ -24,7 +24,12 @@ function Home() {
     <section className="relative w-screen h-screen bg-black overflow-x-hidden">
       <Helmet>
         <title>Study Jom Enhanced</title>
-        {/* Add your meta tags here */}
+        <meta
+          name="description"
+          content={`Search results for: ${searchTerm}`}
+        />
+        {/* Add other metadata here */}
+        <link rel="icon" type="image/ico" href={LOGO} />
       </Helmet>
       <div className="-z-20">
         <ShootingStars />
