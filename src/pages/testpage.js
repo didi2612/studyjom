@@ -63,8 +63,8 @@ function Home() {
                   htmlFor="search"
                   className="block text-sm font-medium leading-6 dark:text-slate-100 text-zinc-900"
                 ></label>
-                <div className="mt-0">
-                  <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
+                <div className="mt-0 flex items-center justify-center">
+                  <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:w-full w-1/2">
                     <span className="flex items-center px-3">
                       <AiOutlineSearch color="#fff" />
                     </span>
